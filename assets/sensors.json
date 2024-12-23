@@ -1,0 +1,488 @@
+{
+    "LHT65N-VIB -- LoRaWAN Vibration Sensor": {
+      "Description": "LoRaWAN protocol for detecting vibration and runtime. Includes temperature & humidity sensors.",
+      "Communication": "LoRaWAN",
+      "Applications": ["Smart Agriculture", "Industrial Monitoring"],
+      "Environmental Compatibility": "Outdoor use, IP-rated",
+      "Data Formats": ["JSON", "MQTT"],
+      "Technology": "LoRaWAN End node",
+      "Cost": "Affordable",
+      "Vendor": "Dragino",
+      "imageUrl": "https://dragino.com/media/k2/items/cache/3abb66d58aa91d2b7b16f08ee38a95c0_L.jpg"
+
+    },
+    "LDS25": {
+      "Description": "Laser-based distance sensor with Bluetooth configuration and solar power support.",
+      "Communication": "LoRaWAN",
+      "Applications": ["Environmental Monitoring", "Smart Cities"],
+      "Environmental Compatibility": "Indoor and outdoor use",
+      "Data Formats": ["JSON", "MQTT"],
+      "Technology": "LiDAR, LoRaWAN",
+      "Cost": "Moderate",
+      "Vendor": "Dragino"
+
+    },
+    "WQS-CB -- NB-IoT Water Quality Sensor Converter": {
+      "Description": "Supports various water quality probes and GNSS location reporting.",
+      "Communication": "NB-IoT",
+      "Applications": ["Water Management", "Research"],
+      "Environmental Compatibility": "IP-rated, waterproof",
+      "Data Formats": ["JSON", "MQTT"],
+      "Technology": "NB-IoT Converter",
+      "Cost": "Premium",
+      "Vendor": "WaterTech"
+    },
+    "LWL04 -- LoRaWAN Water Leak Sensor": {
+      "Description": "Detects water leaks and provides periodic uplinks with IP65 waterproofing.",
+      "Communication": "LoRaWAN",
+      "Applications": ["Building Safety", "Plumbing Maintenance"],
+      "Environmental Compatibility": "Indoor/Outdoor use",
+      "Data Formats": ["JSON"],
+      "Technology": "LoRaWAN Sensor",
+      "Cost": "Affordable",
+      "Vendor": "Dragino"
+    },
+    "LTC2-LB -- LoRaWAN Temperature Transmitter": {
+      "Description": "Supports multi-channel temperature monitoring with alarm and Bluetooth configuration.",
+      "Communication": "LoRaWAN",
+      "Applications": ["Cold Chain Monitoring", "Industrial Processes"],
+      "Environmental Compatibility": "Industrial-grade",
+      "Data Formats": ["JSON", "MQTT"],
+      "Technology": "Temperature Sensor",
+      "Cost": "Moderate",
+      "Vendor": "TechTemp"
+    },
+    "WSS-09 -- 9-in-1 Weather Station Sensor": {
+      "Description": "Multi-parameter weather station with LoRaWAN uplink.",
+      "Communication": "LoRaWAN",
+      "Applications": ["Weather Forecasting", "Agriculture"],
+      "Environmental Compatibility": "Outdoor use, weatherproof",
+      "Data Formats": ["JSON"],
+      "Technology": "Weather Station",
+      "Cost": "Premium",
+      "Vendor": "WeatherSense"
+    },
+    "PB01 -- LoRaWAN Button": {
+      "Description": "Programmable button with built-in temperature and humidity sensors.",
+      "Communication": "LoRaWAN",
+      "Applications": ["Emergency Response", "Automation"],
+      "Environmental Compatibility": "Indoor use",
+      "Data Formats": ["JSON"],
+      "Technology": "Button Sensor",
+      "Cost": "Affordable",
+      "Vendor": "Dragino"
+    },
+    "AQS01-L -- LoRaWAN CO2 Sensor": {
+      "Description": "Measures CO2 levels with alarms and datalogging capabilities.",
+      "Communication": "LoRaWAN",
+      "Applications": ["Greenhouses", "Air Quality Monitoring"],
+      "Environmental Compatibility": "Indoor/Outdoor",
+      "Data Formats": ["JSON"],
+      "Technology": "CO2 Sensor",
+      "Cost": "Moderate",
+      "Vendor": "Dragino"
+    },
+    "TrackerD-LS -- LoRaWAN Asset Tracker": {
+      "Description": "GPS-based tracker with motion sensing and solar charging.",
+      "Communication": "LoRaWAN",
+      "Applications": ["Logistics", "Asset Management"],
+      "Environmental Compatibility": "Rugged, outdoor",
+      "Data Formats": ["MQTT"],
+      "Technology": "GPS Tracker",
+      "Cost": "Premium",
+      "Vendor": "Dragino"
+    },
+    "RS485-NB -- RS485 to NB-IoT Converter": {
+      "Description": "Enables NB-IoT communication for RS485 devices with Modbus support.",
+      "Communication": "NB-IoT",
+      "Applications": ["Industrial Automation", "Legacy Systems"],
+      "Environmental Compatibility": "Industrial-grade",
+      "Data Formats": ["JSON"],
+      "Technology": "Protocol Converter",
+      "Cost": "Affordable",
+      "Vendor": "IoTBridge"
+    },
+    "PT100-LoRa -- Temperature Sensor": {
+      "Description": "Industrial-grade temperature sensor with LoRaWAN communication.",
+      "Communication": "LoRaWAN",
+      "Applications": ["Factory Equipment Monitoring", "Pipelines"],
+      "Environmental Compatibility": "High-temperature resistance",
+      "Data Formats": ["JSON"],
+      "Technology": "Temperature Sensor",
+      "Cost": "Moderate",
+      "Vendor": "IndustryTech"
+    },
+    "THL03 -- Temperature & Humidity Logger": {
+      "Description": "Logs temperature and humidity data with cloud integration via LoRaWAN.",
+      "Communication": "LoRaWAN",
+      "Applications": ["Data Centers", "Cold Chain"],
+      "Environmental Compatibility": "Indoor use",
+      "Data Formats": ["JSON", "MQTT"],
+      "Technology": "Logger",
+      "Cost": "Affordable",
+      "Vendor": "LogiSense"
+    },
+    "PM25-LoRa -- Air Quality Sensor": {
+      "Description": "Measures particulate matter (PM2.5/PM10) with long battery life.",
+      "Communication": "LoRaWAN",
+      "Applications": ["Smart Cities", "Air Quality Monitoring"],
+      "Environmental Compatibility": "Outdoor use",
+      "Data Formats": ["JSON"],
+      "Technology": "Air Quality Sensor",
+      "Cost": "Moderate",
+      "Vendor": "AirSense"
+    },
+    "US-Distance -- Ultrasonic Distance Sensor": {
+      "Description": "Accurate distance measurement using ultrasonic waves with LoRaWAN.",
+      "Communication": "LoRaWAN",
+      "Applications": ["Smart Parking", "Industrial Monitoring"],
+      "Environmental Compatibility": "Waterproof, rugged",
+      "Data Formats": ["JSON"],
+      "Technology": "Ultrasonic",
+      "Cost": "Affordable",
+      "Vendor": "DistanceTech"
+    },
+    "GAS-NB -- Gas Leakage Detector": {
+      "Description": "Detects flammable gases with NB-IoT communication and alarms.",
+      "Communication": "NB-IoT",
+      "Applications": ["Safety Monitoring", "Industrial Use"],
+      "Environmental Compatibility": "Explosion-proof",
+      "Data Formats": ["MQTT"],
+      "Technology": "Gas Detector",
+      "Cost": "Premium",
+      "Vendor": "SafeGas"
+    },
+    "LORAWAN-ABC123 -- GPS Tracker": {
+      "Description": "Long-lasting battery GPS tracker with geofencing support.",
+      "Communication": "LoRaWAN",
+      "Applications": ["Fleet Management", "Logistics"],
+      "Environmental Compatibility": "All-weather",
+      "Data Formats": ["JSON"],
+      "Technology": "GPS",
+      "Cost": "Moderate",
+      "Vendor": "GeoTrack"
+    },
+    "NB-IOT123 -- Smart Meter": {
+      "Description": "NB-IoT compatible energy smart meter with real-time alerts.",
+      "Communication": "NB-IoT",
+      "Applications": ["Utility Monitoring", "Energy Management"],
+      "Environmental Compatibility": "Indoor",
+      "Data Formats": ["JSON"],
+      "Technology": "Smart Meter",
+      "Cost": "Affordable",
+      "Vendor": "SmartMeterCo"
+    },
+    "LORA-Weather -- LoRaWAN Weather Sensor": {
+      "Description": "Measures rainfall, wind speed, and temperature over LoRaWAN.",
+      "Communication": "LoRaWAN",
+      "Applications": ["Weather Monitoring", "Smart Agriculture"],
+      "Environmental Compatibility": "Outdoor",
+      "Data Formats": ["JSON", "MQTT"],
+      "Technology": "Weather Monitoring",
+      "Cost": "Premium",
+      "Vendor": "AgroWeather"
+    },
+        "SOIL-LoRa -- Soil Moisture Sensor": {
+          "Description": "Monitors soil moisture levels with LoRaWAN communication for agricultural use.",
+          "Communication": "LoRaWAN",
+          "Applications": ["Precision Agriculture", "Irrigation Monitoring"],
+          "Environmental Compatibility": "Outdoor, rugged",
+          "Data Formats": ["JSON", "MQTT"],
+          "Technology": "Soil Sensor",
+          "Cost": "Affordable",
+          "Vendor": "AgroTech"
+        },
+        "WATER-NB -- NB-IoT Water Flow Sensor": {
+          "Description": "Measures water flow rates with high accuracy using NB-IoT uplinks.",
+          "Communication": "NB-IoT",
+          "Applications": ["Pipeline Monitoring", "Water Distribution"],
+          "Environmental Compatibility": "Industrial-grade",
+          "Data Formats": ["JSON"],
+          "Technology": "Water Flow Sensor",
+          "Cost": "Moderate",
+          "Vendor": "FlowSense"
+        },
+        "VIBRATION-SMART -- Vibration Sensor": {
+          "Description": "Detects machinery vibrations and provides maintenance alerts.",
+          "Communication": "LoRaWAN",
+          "Applications": ["Industrial Maintenance", "Safety Monitoring"],
+          "Environmental Compatibility": "Indoor and Outdoor",
+          "Data Formats": ["JSON"],
+          "Technology": "Vibration Sensor",
+          "Cost": "Affordable",
+          "Vendor": "VibroTech"
+        },
+        "PIR-LoRa -- Motion Detector": {
+          "Description": "Infrared motion detection with long battery life.",
+          "Communication": "LoRaWAN",
+          "Applications": ["Security", "Home Automation"],
+          "Environmental Compatibility": "Indoor use",
+          "Data Formats": ["JSON"],
+          "Technology": "PIR Sensor",
+          "Cost": "Affordable",
+          "Vendor": "MotionSense"
+        },
+        "ASSET-NB -- NB-IoT Asset Tracker": {
+          "Description": "Tracks assets with geofencing and movement alerts.",
+          "Communication": "NB-IoT",
+          "Applications": ["Logistics", "Asset Management"],
+          "Environmental Compatibility": "Industrial-grade",
+          "Data Formats": ["MQTT"],
+          "Technology": "GPS Tracker",
+          "Cost": "Moderate",
+          "Vendor": "AssetTrackCo"
+        },
+        "AIR-LoRa -- Air Quality Sensor": {
+          "Description": "Measures air quality parameters such as CO, SO2, and particulate matter.",
+          "Communication": "LoRaWAN",
+          "Applications": ["Smart Cities", "Environmental Monitoring"],
+          "Environmental Compatibility": "Outdoor use",
+          "Data Formats": ["JSON"],
+          "Technology": "Air Quality Sensor",
+          "Cost": "Premium",
+          "Vendor": "EnviroSense"
+        },
+        "TILT-LoRa -- Tilt Sensor": {
+          "Description": "Monitors tilt angles with high precision.",
+          "Communication": "LoRaWAN",
+          "Applications": ["Structural Health Monitoring", "Industrial Use"],
+          "Environmental Compatibility": "Rugged, weatherproof",
+          "Data Formats": ["JSON"],
+          "Technology": "Tilt Sensor",
+          "Cost": "Moderate",
+          "Vendor": "TiltSense"
+        },
+        "NB-LOCK -- Smart Lock": {
+          "Description": "NB-IoT enabled smart lock for remote access and monitoring.",
+          "Communication": "NB-IoT",
+          "Applications": ["Smart Homes", "Security"],
+          "Environmental Compatibility": "Indoor use",
+          "Data Formats": ["MQTT"],
+          "Technology": "Smart Lock",
+          "Cost": "Affordable",
+          "Vendor": "SafeLock"
+        },
+        "TEMP-NB -- Industrial Temperature Sensor": {
+          "Description": "High-accuracy temperature monitoring for industrial use.",
+          "Communication": "NB-IoT",
+          "Applications": ["Cold Storage", "Industrial Monitoring"],
+          "Environmental Compatibility": "Industrial-grade",
+          "Data Formats": ["JSON"],
+          "Technology": "Temperature Sensor",
+          "Cost": "Moderate",
+          "Vendor": "TempTech"
+        },
+        "LIGHT-LoRa -- Smart Lighting Sensor": {
+          "Description": "Controls lighting systems using LoRaWAN communication.",
+          "Communication": "LoRaWAN",
+          "Applications": ["Smart Cities", "Energy Management"],
+          "Environmental Compatibility": "Outdoor, IP-rated",
+          "Data Formats": ["JSON"],
+          "Technology": "Lighting Sensor",
+          "Cost": "Affordable",
+          "Vendor": "LightSense"
+        },
+        "FLOOD-LoRa -- Flood Monitoring Sensor": {
+          "Description": "Monitors water levels in real-time with LoRaWAN uplinks.",
+          "Communication": "LoRaWAN",
+          "Applications": ["Flood Warning Systems", "Disaster Management"],
+          "Environmental Compatibility": "Waterproof",
+          "Data Formats": ["JSON"],
+          "Technology": "Flood Sensor",
+          "Cost": "Moderate",
+          "Vendor": "WaterGuard"
+        },
+        "GAS-LoRa -- LPG Leakage Detector": {
+          "Description": "Detects LPG leakage and provides instant alerts over LoRaWAN.",
+          "Communication": "LoRaWAN",
+          "Applications": ["Safety Monitoring", "Home Automation"],
+          "Environmental Compatibility": "Indoor use",
+          "Data Formats": ["JSON"],
+          "Technology": "Gas Detector",
+          "Cost": "Affordable",
+          "Vendor": "GasSense"
+        },
+        "AGRO-LoRa -- Agricultural Sensor": {
+          "Description": "Monitors soil pH, moisture, and nutrients for smart farming.",
+          "Communication": "LoRaWAN",
+          "Applications": ["Precision Agriculture"],
+          "Environmental Compatibility": "Outdoor, weatherproof",
+          "Data Formats": ["JSON"],
+          "Technology": "Soil Sensor",
+          "Cost": "Premium",
+          "Vendor": "AgriTech"
+        },
+        "SMART-PARK -- Parking Sensor": {
+          "Description": "Ultrasonic parking sensor with NB-IoT uplinks for space availability.",
+          "Communication": "NB-IoT",
+          "Applications": ["Smart Parking", "Traffic Management"],
+          "Environmental Compatibility": "Rugged",
+          "Data Formats": ["JSON"],
+          "Technology": "Ultrasonic Sensor",
+          "Cost": "Moderate",
+          "Vendor": "ParkSense"
+        },
+        "BATTERY-LoRa -- Battery Health Sensor": {
+          "Description": "Monitors battery voltage and performance metrics with LoRaWAN.",
+          "Communication": "LoRaWAN",
+          "Applications": ["Battery Management", "Energy Monitoring"],
+          "Environmental Compatibility": "Industrial-grade",
+          "Data Formats": ["JSON"],
+          "Technology": "Battery Sensor",
+          "Cost": "Affordable",
+          "Vendor": "EnergySense"
+        },
+        "PEST-LoRa -- Pest Detection Sensor": {
+          "Description": "Detects pests in agricultural fields and provides LoRaWAN alerts.",
+          "Communication": "LoRaWAN",
+          "Applications": ["Pest Control", "Smart Farming"],
+          "Environmental Compatibility": "Outdoor",
+          "Data Formats": ["JSON"],
+          "Technology": "Pest Sensor",
+          "Cost": "Moderate",
+          "Vendor": "FarmSense"
+        },
+        "NB-WASTE -- Smart Waste Bin": {
+          "Description": "Monitors waste levels in bins and sends NB-IoT alerts.",
+          "Communication": "NB-IoT",
+          "Applications": ["Smart Cities", "Waste Management"],
+          "Environmental Compatibility": "Outdoor",
+          "Data Formats": ["JSON"],
+          "Technology": "Waste Sensor",
+          "Cost": "Affordable",
+          "Vendor": "SmartWaste"
+        },
+        "NB-GATE -- Industrial Gateway": {
+          "Description": "NB-IoT gateway with multiple protocol support.",
+          "Communication": "NB-IoT",
+          "Applications": ["IoT Gateways", "Protocol Bridging"],
+          "Environmental Compatibility": "Rugged",
+          "Data Formats": ["MQTT", "JSON"],
+          "Technology": "IoT Gateway",
+          "Cost": "Premium",
+          "Vendor": "IoTBridge"
+        },
+        "SMOKE-LoRa -- Smoke Detector": {
+          "Description": "Early warning smoke detection with LoRaWAN uplink.",
+          "Communication": "LoRaWAN",
+          "Applications": ["Fire Safety", "Building Automation"],
+          "Environmental Compatibility": "Indoor",
+          "Data Formats": ["JSON"],
+          "Technology": "Smoke Detector",
+          "Cost": "Affordable",
+          "Vendor": "FireGuard"
+        },
+        "NOISE-LoRa -- Noise Pollution Sensor": {
+          "Description": "Monitors noise pollution levels with accurate decibel readings.",
+          "Communication": "LoRaWAN",
+          "Applications": ["Smart Cities", "Environmental Monitoring"],
+          "Environmental Compatibility": "Outdoor",
+          "Data Formats": ["JSON"],
+          "Technology": "Noise Sensor",
+          "Cost": "Moderate",
+          "Vendor": "NoiseSense"
+        }
+        ,
+            "NB-PRESSURE -- Pressure Monitoring Sensor": {
+              "Description": "High-accuracy pressure monitoring sensor using NB-IoT for industrial systems.",
+              "Communication": "NB-IoT",
+              "Applications": ["HVAC Systems", "Industrial Processes"],
+              "Environmental Compatibility": "Rugged, waterproof",
+              "Data Formats": ["JSON"],
+              "Technology": "Pressure Sensor",
+              "Cost": "Moderate",
+              "Vendor": "PressureSense"
+            },
+            "BLE-TEMP -- Bluetooth Temperature Sensor": {
+              "Description": "Monitors temperature with BLE for real-time data in short ranges.",
+              "Communication": "Bluetooth",
+              "Applications": ["Cold Chain Monitoring", "Medical Devices"],
+              "Environmental Compatibility": "Indoor use",
+              "Data Formats": ["JSON"],
+              "Technology": "Temperature Sensor",
+              "Cost": "Affordable",
+              "Vendor": "BlueTemp"
+            },
+            "ZIGBEE-MOTION -- Zigbee Motion Detector": {
+              "Description": "Compact motion sensor with Zigbee communication for smart homes.",
+              "Communication": "Zigbee",
+              "Applications": ["Home Automation", "Security Systems"],
+              "Environmental Compatibility": "Indoor",
+              "Data Formats": ["JSON"],
+              "Technology": "Motion Sensor",
+              "Cost": "Affordable",
+              "Vendor": "ZigMotion"
+            },
+            "SIGFOX-TRACKER -- Sigfox Asset Tracker": {
+              "Description": "GPS-enabled asset tracking sensor using Sigfox networks.",
+              "Communication": "Sigfox",
+              "Applications": ["Logistics", "Fleet Management"],
+              "Environmental Compatibility": "Rugged, outdoor",
+              "Data Formats": ["JSON"],
+              "Technology": "GPS Tracker",
+              "Cost": "Moderate",
+              "Vendor": "SigTrack"
+            },
+            "WIFI-HUMIDITY -- Wi-Fi Humidity Sensor": {
+              "Description": "Measures humidity levels with Wi-Fi connectivity for smart systems.",
+              "Communication": "Wi-Fi",
+              "Applications": ["Greenhouses", "Building Automation"],
+              "Environmental Compatibility": "Indoor use",
+              "Data Formats": ["MQTT", "JSON"],
+              "Technology": "Humidity Sensor",
+              "Cost": "Affordable",
+              "Vendor": "HumidiSense"
+            },
+            "5G-INDUSTRIAL -- 5G Industrial Sensor": {
+              "Description": "Multi-purpose industrial sensor with 5G connectivity for high-speed data.",
+              "Communication": "5G",
+              "Applications": ["Smart Factories", "Real-Time Monitoring"],
+              "Environmental Compatibility": "Industrial-grade",
+              "Data Formats": ["JSON"],
+              "Technology": "Industrial Sensor",
+              "Cost": "Premium",
+              "Vendor": "Indus5G"
+            },
+            "RFID-READER -- RFID Reader Module": {
+              "Description": "Reads RFID tags for asset identification and tracking.",
+              "Communication": "RFID",
+              "Applications": ["Inventory Management", "Access Control"],
+              "Environmental Compatibility": "Indoor",
+              "Data Formats": ["JSON"],
+              "Technology": "RFID Reader",
+              "Cost": "Affordable",
+              "Vendor": "RFIDTech"
+            },
+            "NFC-READER -- NFC Reader Module": {
+              "Description": "Short-range NFC communication for payments and identification.",
+              "Communication": "NFC",
+              "Applications": ["Retail", "Smart Access"],
+              "Environmental Compatibility": "Indoor",
+              "Data Formats": ["JSON"],
+              "Technology": "NFC Reader",
+              "Cost": "Affordable",
+              "Vendor": "NFCLink"
+            },
+            "LORA-PROXIMITY -- LoRaWAN Proximity Sensor": {
+              "Description": "Detects proximity and sends alerts via LoRaWAN.",
+              "Communication": "LoRaWAN",
+              "Applications": ["Safety Systems", "Equipment Monitoring"],
+              "Environmental Compatibility": "Rugged, outdoor",
+              "Data Formats": ["JSON"],
+              "Technology": "Proximity Sensor",
+              "Cost": "Moderate",
+              "Vendor": "LoRaProx"
+            },
+            "SAT-TRACKER -- Satellite IoT Tracker": {
+              "Description": "Tracks remote assets using satellite communication for global coverage.",
+              "Communication": "Satellite",
+              "Applications": ["Maritime Tracking", "Remote Monitoring"],
+              "Environmental Compatibility": "Extreme conditions",
+              "Data Formats": ["JSON"],
+              "Technology": "GPS Tracker",
+              "Cost": "Premium",
+              "Vendor": "SatTrack"
+            }
+          }
+        
+  
